@@ -6,7 +6,7 @@ import requests
 YEAR = 2020
 DATASET = "dec/pl"
 URL = f"https://api.census.gov/data/{YEAR}/{DATASET}"
-API_KEY = "4bc3146799ea47dcbd8405e6c90b078e9a94ef93"
+API_KEY = "API KEY HERE"
 
 params = {
     "get": "NAME,P1_001N",
