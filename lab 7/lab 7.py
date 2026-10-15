@@ -90,7 +90,9 @@ model = sm.OLS(data[Y_COL], X).fit()
 
 print("OLS Regression Summary: ")
 print(model.summary())
+
 # Print values needed for trends document
+
 print("Intercept (β0):", model.params["const"])
 print("Slope (β1):", model.params[X_COL])
 print("R²:", model.rsquared)
