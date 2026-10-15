@@ -77,7 +77,7 @@ fig.tight_layout()
 
 save_scatter = input("Would you like to save this scatterplot? (y/n): ")
 if save_scatter == "y":
-    scatter_file = input("Please enter a file name.")
+    scatter_file = input("Please enter a file name: ")
     plt.savefig(scatter_file, dpi=300)
     print(f"Saved scatterplot to {scatter_file}")
 
@@ -107,7 +107,7 @@ ax.legend()
 
 save_scatter = input("Would you like to save this scatterplot with OLS regression line? (y/n): ")
 if save_scatter == "y":
-    scatter_file = input("Please enter a file name.")
+    scatter_file = input("Please enter a file name: ")
     plt.savefig(scatter_file, dpi=300)
     print(f"Saved scatterplot to {scatter_file}")
 
